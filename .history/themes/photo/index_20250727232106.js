@@ -273,7 +273,7 @@ const LayoutSlug = props => {
         ) {
           videoWrapper.appendChild(figCaptionWrapper)
         }
-        // 페이지에 삽입
+      // 페이지에 삽입
         if (
           notionArticle.firstChild &&
           notionArticle.contains(notionArticle.firstChild)
@@ -410,7 +410,7 @@ const LayoutSearch = props => {
   const router = useRouter()
   useEffect(() => {
     if (isBrowser) {
-      // 검색된 결과 하이라이트
+  // 검색된 결과 하이라이트
       const container = document.getElementById('posts-wrapper')
       if (keyword && container) {
         replaceSearchResult({
