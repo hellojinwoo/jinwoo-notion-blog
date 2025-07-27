@@ -8,14 +8,8 @@ const CONFIG = {
 
   // 홈페이지 상단 알림바(롤링), 필요 없으면 빈 배열로 설정
   HEO_NOTICE_BAR: [
-    {
-      title: '내 블로그에 오신 것을 환영합니다',
-      url: 'https://blog.tangly1024.com'
-    },
-    {
-      title: '문서 센터에서 더 많은 도움을 받으세요',
-      url: 'https://docs.tangly1024.com'
-    }
+    { title: '내 블로그에 오신 것을 환영합니다', url: 'https://blog.tangly1024.com' },
+    { title: '문서 센터에서 더 많은 도움을 받으세요', url: 'https://docs.tangly1024.com' }
   ],
 
   // 히어로 영역 좌우 컴포넌트 위치 변경
