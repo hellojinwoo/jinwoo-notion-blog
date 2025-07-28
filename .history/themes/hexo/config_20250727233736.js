@@ -1,47 +1,47 @@
 const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
-  // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
+  // 3.14.1 이후 버전에서는 환영 문구를 blog.config.js에서 설정하며, 여러 개는 영어 쉼표 ','로 구분합니다.
   HEXO_HOME_BANNER_GREETINGS: [
-    'Hi，我是一个程序员',
-    'Hi，我是一个打工人',
-    'Hi，我是一个干饭人',
+    'Hi, 저는 프로그래머입니다',
+    'Hi, 저는 직장인입니다',
+    'Hi, 저는 밥을 사랑하는 사람입니다',
     '내 블로그에 오신 것을 환영합니다🎉'
-  ], // 首页大图标语文字
+  ], // 메인 배너 문구
 
-  HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
-  // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
-  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
-  // 是否显示开始阅读按钮
+  HEXO_HOME_NAV_BUTTONS: true, // 메인에서 카테고리 대형 아이콘 버튼 표시 여부
+  // 알려진 미해결 버그: 모바일에서 true로 하면 이미지를 불러오지 못할 수 있으니, 임시로 false 권장
+  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 메인 배경 이미지 스크롤 고정 여부, true면 고정, false면 스크롤에 따라 이동
+  // '읽기 시작' 버튼 표시 여부
   HEXO_SHOW_START_READING: true,
 
-  // 菜单配置
-  HEXO_MENU_INDEX: true, // 显示首页
-  HEXO_MENU_CATEGORY: true, // 显示分类
-  HEXO_MENU_TAG: true, // 显示标签
-  HEXO_MENU_ARCHIVE: true, // 显示归档
-  HEXO_MENU_SEARCH: true, // 显示搜索
-  HEXO_MENU_RANDOM: true, // 显示随机跳转按钮
+  // 메뉴 설정
+  HEXO_MENU_INDEX: true, // 메인 표시
+  HEXO_MENU_CATEGORY: true, // 카테고리 표시
+  HEXO_MENU_TAG: true, // 태그 표시
+  HEXO_MENU_ARCHIVE: true, // 아카이브 표시
+  HEXO_MENU_SEARCH: true, // 검색 표시
+  HEXO_MENU_RANDOM: true, // 랜덤 이동 버튼 표시
 
-  HEXO_POST_LIST_COVER: true, // 列表显示文章封面
-  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
+  HEXO_POST_LIST_COVER: true, // 목록에 글 표지 표시
+  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 목록에서 마우스 오버 시 확대
 
-  HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
-  HEXO_POST_LIST_SUMMARY: true, // 文章摘要
-  HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
-  HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+  HEXO_POST_LIST_COVER_DEFAULT: true, // 표지가 없을 때 사이트 배경을 기본 표지로 사용
+  HEXO_POST_LIST_SUMMARY: true, // 글 요약
+  HEXO_POST_LIST_PREVIEW: false, // 글 미리보기 읽기
+  HEXO_POST_LIST_IMG_CROSSOVER: true, // 블로그 목록 이미지 좌우 교차
 
-  HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
-  HEXO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
-  HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+  HEXO_ARTICLE_ADJACENT: true, // 이전/다음 글 추천 표시
+  HEXO_ARTICLE_COPYRIGHT: true, // 글 저작권 표시
+  HEXO_ARTICLE_NOT_BY_AI: false, // AI 작성 아님 표시
+  HEXO_ARTICLE_RECOMMEND: true, // 글 관련 추천 표시
 
-  HEXO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  HEXO_WIDGET_ANALYTICS: false, // 显示统计卡
+  HEXO_WIDGET_LATEST_POSTS: true, // 최신 글 카드 표시
+  HEXO_WIDGET_ANALYTICS: false, // 통계 카드 표시
   HEXO_WIDGET_TO_TOP: true,
-  HEXO_WIDGET_TO_COMMENT: true, // 跳到评论区
-  HEXO_WIDGET_DARK_MODE: true, // 夜间模式
-  HEXO_WIDGET_TOC: true, // 移动端悬浮目录
+  HEXO_WIDGET_TO_COMMENT: true, // 댓글 영역으로 이동
+  HEXO_WIDGET_DARK_MODE: true, // 다크 모드
+  HEXO_WIDGET_TOC: true, // 모바일 플로팅 목차
 
-  HEXO_THEME_COLOR: '#928CEE' // 主题色配置（默认为 #928CEE）
+  HEXO_THEME_COLOR: '#928CEE' // 테마 색상 설정(기본값 #928CEE)
 }
 export default CONFIG

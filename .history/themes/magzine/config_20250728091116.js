@@ -7,12 +7,10 @@ const CONFIG = {
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '공유 에세이', // 메인에 표시하지 않을 글 분류, 영어 쉼표로 구분
 
-  MAGZINE_HOME_TITLE:
-    '지금 바로 온라인 비즈니스를 시작하세요. 완전 무료입니다.',
+  MAGZINE_HOME_TITLE: '지금 바로 온라인 비즈니스를 시작하세요. 완전 무료입니다.',
   MAGZINE_HOME_DESCRIPTION:
     'NotionNext를 통해 비즈니스 시작, 운영, 확장에 필요한 모든 도구와 도움을 얻으세요.',
-  MAGZINE_HOME_TIPS:
-    'AI 시대가 도래했습니다. 슈퍼 개인을 위한 축제의 장입니다!',
+  MAGZINE_HOME_TIPS: 'AI 시대가 도래했습니다. 슈퍼 개인을 위한 축제의 장입니다!',
 
   // 메인 하단 추천 글 태그, 예: [추천], 최대 6개 글; 비워두면 최근 업데이트 글 추천
   MAGZINE_RECOMMEND_POST_TAG: '추천',

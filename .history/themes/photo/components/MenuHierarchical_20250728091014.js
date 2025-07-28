@@ -74,7 +74,7 @@ export default function MenuHierarchical(props) {
 
   return (
     <div className='absolute top-0 mt-7 italic text-gray-700 dark:text-gray-200'>
-      {/* 메뉴 버튼 */}
+      {/* 菜单按钮 */}
       <div
         onClick={toggleMenuOpen}
         className=' whitespace-nowrap cursor-pointer'>
@@ -85,7 +85,7 @@ export default function MenuHierarchical(props) {
         collapseRef={collapseRef}
         type='vertical'
         isOpen={isOpen}>
-        {/* 모바일 메뉴 */}
+        {/* 移动端菜单 */}
         <menu id='nav-menu-mobile' className='my-4 space-y-4 justify-start'>
           {links?.map(
             (link, index) =>
@@ -102,7 +102,7 @@ export default function MenuHierarchical(props) {
           )}
         </menu>
       </Collapse>
-      {/* 오버레이(마스킹) */}
+      {/* 遮罩 */}
       {isOpen && (
         <div
           onClick={closeModal}
