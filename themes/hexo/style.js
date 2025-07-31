@@ -77,7 +77,7 @@ const Style = () => {
         color: var(--theme-color) !important;
       }
 
-      /* 最新发布文章悬浮颜色 */
+      /* 최신 글 호버 색상 */
       #theme-hexo div[class*='hover:text-indigo-600']:hover,
       #theme-hexo div[class*='hover:text-indigo-400']:hover {
         color: var(--theme-color) !important;
