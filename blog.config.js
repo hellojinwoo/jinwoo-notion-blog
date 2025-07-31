@@ -5,7 +5,7 @@ const BLOG = {
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID || '23c711b8a78880ac8b88c59d5ae2a4a1',
   THEME: process.env.NEXT_PUBLIC_THEME || 'heo', // 현재 테마, themes 폴더에서 지원하는 모든 테마를 찾을 수 있습니다; 테마 이름은 폴더명과 같습니다. 예: example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
-  LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
+  LANG: process.env.NEXT_PUBLIC_LANG || 'ko-KR', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
 
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 의사 정적 경로, 활성화 시 모든 글 URL이 .html로 끝납니다.
