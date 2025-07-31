@@ -15,7 +15,7 @@ export default function formatDate(date, local = BLOG.LANG) {
   let format = res
   if (local.slice(0, 2).toLowerCase() === 'zh') {
     // 중국어: "2024年1月1日" → "2024-01-01"
-    format = res.replace('年', '-').replace('月', '-').replace('日', '')
+    format = res.replace('年', '-').replace('월', '-').replace('日', '')
   } else if (local.slice(0, 2).toLowerCase() === 'ko') {
     // 한국어: "2024. 1. 1." → "2024-01-01"
     format = res.replace(/\./g, '').replace(/\s+/g, '-').replace(/-$/, '')
@@ -32,7 +32,7 @@ export default function formatDate(date, local = BLOG.LANG) {
 }
 
 /**
- * 타임스탬프 포맷팅
+ * 时间戳格式化
  * @param {*} timestamp
  * @param {*} fmt
  * @returns
@@ -40,13 +40,13 @@ export default function formatDate(date, local = BLOG.LANG) {
 export function formatDateFmt(timestamp, fmt) {
   const date = new Date(timestamp)
   const o = {
-    'M+': date.getMonth() + 1, // 월
-    'd+': date.getDate(), // 일
-    'h+': date.getHours(), // 시간
-    'm+': date.getMinutes(), // 분
-    's+': date.getSeconds(), // 초
-    'q+': Math.floor((date.getMonth() + 3) / 3), // 분기
-    S: date.getMilliseconds() // 밀리초
+    'M+': date.getMonth() + 1, // 月份
+    'd+': date.getDate(), // 日
+    'h+': date.getHours(), // 小时
+    'm+': date.getMinutes(), // 分
+    's+': date.getSeconds(), // 秒
+    'q+': Math.floor((date.getMonth() + 3) / 3), // 季度
+    S: date.getMilliseconds() // 毫秒
   }
   if (/(y+)/.test(fmt)) {
     fmt = fmt.replace(
